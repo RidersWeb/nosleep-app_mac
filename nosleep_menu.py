@@ -3,7 +3,7 @@ import subprocess
 
 class NoSleepApp(rumps.App):
     def __init__(self):
-        super().__init__("🛌 Сон разрешён")
+        super().__init__("🛌 Сон разрешён", quit_button=None)
         self.proc = None
         self.menu_item = rumps.MenuItem("🔒 Заблокировать сон", callback=self.toggle)
         self.menu = [self.menu_item, "Выход"]
