@@ -1,5 +1,3 @@
-Понял тебя, держи полный текст README.md для копирования и вставки целиком:
-
 # ☀️ NoSleepApp
 
 A simple macOS menu bar app that prevents your Mac from going to sleep using the built-in `caffeinate` command.
